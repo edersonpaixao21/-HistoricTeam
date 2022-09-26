@@ -1,0 +1,322 @@
+.addCromoPage {
+    height: 100%;
+    background-image: url("../../images/background-gea37234bd_12802.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formSection {
+    background-color: rgba(248, 248, 248, 0.904);
+    border: 10px solid #a98be5;
+    width: 80%;
+    max-width: 800px;
+    margin: 50px 0px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formSection h1 {
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+.form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formTimeAno {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.formTime {
+    text-align: center;
+    width: 100%;
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formAno {
+    width: 100%;
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputs {
+    height: 30px;
+    width: 100%;
+    border: none;
+    text-align: center;
+}
+
+.inputAno {
+    height: 30px;
+    width: 100%;
+    border: none;
+    text-align: center;
+}
+
+.urlForms {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.urlForm {
+    text-align: center;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputUrl {
+    height: 30px;
+    width: 100%;
+    border: none;
+    text-align: center;
+}
+
+.inputDescr {
+    width: 100%;
+    height: 100px;
+    border: none;
+}
+
+.formTitulos {
+    text-align: center;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formTitulosAddBtn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.inputTitulos {
+    height: 30px;
+    width: 100%;
+    border: none;
+}
+
+.addContainer {
+    width: 100%;
+    height: 110px;
+    border: none;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: white;
+}
+
+.timeTitulo {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.delBtn {
+    border: none;
+    background-color: #BB2D3B;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delBtn:hover {
+    border: none;
+    background-color: #c94f5c;
+    
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delBtn:active {
+    border: none;
+    background-color: #992531;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.AddBtn {
+    height: 30px;
+    border: none;
+    background-color: #a98be5;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.AddBtn:hover {
+    height: 30px;
+    border: none;
+    background-color: #a98be5;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.AddBtn:active {
+    height: 30px;
+    border: none;
+    background-color: #a98be5;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.addContainerPlayers {
+    width: 100%;
+    height: 230px;
+    border: none;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: white;
+}
+
+.formTecEsqTatico {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.formTecnico {
+    width: 100%;
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formEsqTatico {
+    width: 100%;
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.atuaCancelarBtns {
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.atualizarBtn {
+    height: 50px;
+    width: 100px;
+    border: none;
+    background-color: #a98be5;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.atualizarBtn:hover {
+    height: 50px;
+    width: 100px;
+    border: none;
+    background-color: #a98be5;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.atualizarBtn:active {
+    height: 50px;
+    width: 100px;
+    border: none;
+    background-color: #a98be5;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.cancelarBtn {
+    height: 50px;
+    width: 100px;
+    border: none;
+    background-color: rgb(99, 99, 99);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.cancelarBtn:hover {
+    height: 50px;
+    width: 100px;
+    border: none;
+    background-color: rgb(131, 131, 131);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.cancelarBtn:active {
+    height: 50px;
+    width: 100px;
+    border: none;
+    background-color: rgb(78, 78, 78);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}

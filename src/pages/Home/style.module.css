@@ -1,0 +1,32 @@
+.headerHome {
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 450px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.headerHome img {
+  width: 400px;
+}
+
+.cards {
+  padding: 480px 30px 50px 30px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url("../../images/background-gea37234bd_12802.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.addBtn {
+  width: 200px;
+  height: 260px;
+}

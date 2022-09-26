@@ -1,0 +1,137 @@
+.infoPage {
+    height: 100%;
+    background-image: url("../../images/background-gea37234bd_12802.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.infoHeader {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 250px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 15px rgb(0, 0, 0);
+}
+
+.logo {
+    width: 150px;
+}
+
+.infos {
+    background-color: rgba(248, 248, 248, 0.904);
+    border: 10px solid #a98be5;
+    width: 80vw;
+    max-width: 800px;
+    margin: 50px 0px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.infosTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px;
+    font-size: 2em;
+}
+
+.infosTitle img {
+    width: 100px;
+}
+
+.infoButtons {
+    width: 80px;
+    height: 40px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.editBtn {
+    width: 30px;
+    height: 30px;
+    background: url('../../images/Edit_icon.png');
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.deleteBtn {
+    width: 30px;
+    height: 30px;
+    background: url('../../images/trash_icon.png');
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.toastBtns {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toastDelBtn {
+    width: 70px;
+    height: 30px;
+    margin: 10px;
+    background-color: #BB2D3B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.toastNoBtn {
+    width: 70px;
+    height: 30px;
+    margin: 10px;
+    background-color: #a98be5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.teamImg {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.infosAbout {
+    width: 95%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.infosAbout h2 {
+    margin: 20px 0px;
+}
+
+.infosAbout h3 {
+    margin-bottom: 20px;
+}
+
+.infosAbout p {
+    text-align: justify;
+}
